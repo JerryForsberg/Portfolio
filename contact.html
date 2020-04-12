@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact JF</title>
-    <!--Linking to external stylesheet Homework2-->
-    <link rel="stylesheet" type="text/css" href = "./Homework2.css">
-   
     <!--Linking to boocamp css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Linking to external stylesheet Homework2-->
+    <link rel="stylesheet" type="text/css" href = "./Homework2.css">
 </head>
 <body>
 
@@ -28,6 +27,55 @@
             </div>
           </nav>
           </nav>
+
+          <!--Setting the container to hold the content of the page -->
+      <Main class="container">
+        <!--Making the content only take up 2/3 of the width of the page-->
+        <div class="col-sm-8">
+          <!--Making the header into its own row-->
+          <header class="row">
+            <!--Used the col class to help the header align on the left side with the content of section-->
+            <h1 class="col-sm-4">Contact</h1>
+          </header>
+          <!--creating a line to seperate the header from the main content-->
+          <hr>
+          <!--Section contains the form.-->
+          <section>
+            <!--Used a form from bootstrap that has fields for name email and message.-->
+            <form>
+              <div class="name">
+                <label for="exampleInputName1"> Name</label>
+                <input type="name" class="form-control" id="exampleInputName1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="Message">
+                <label for="exampleInputMessage1"> Message</label>
+                <input type="Message" class="form-control" id="exampleInputMessage1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+              
+
+          </section>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+      </Main>
+
 
 
 

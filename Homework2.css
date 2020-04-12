@@ -1,0 +1,56 @@
+/* Set the background color of the page to a light grey */
+Body{
+    padding: 0;
+    margin: 0;
+    background: #d3d1d1;
+}
+/*Set the background color of the body sections to white*/
+#portfolio-body{
+    background-color: white;
+}
+/*Set the background color of the body sections to white*/
+#aboutmebody{
+    background: white;
+}
+/*Set the background color and created a slight top margin from the navbar*/
+main{
+    margin-top: 20px;
+    background: #ffffff;
+}
+/*Changed all header colors to green*/
+h1{
+    color: rgb(40, 148, 115);
+}
+/* Used the following formatting so that the captions would conform in size and location to the photos */
+figcaption{
+    position: absolute;
+    /* bottom: 10%; */
+    /* left: 45%; */
+    top:73%;
+    text-align:center;
+    font-size: 25px;
+    line-height:50px;
+    width:250px;
+    /* transform: translate(-50%, -50%); */
+    background: rgb(40, 148, 115);
+    color: white;
+}
+/*Set the grey background for the containers*/
+.container {
+    
+    background: #d3d1d1;
+}
+/*aligned the text in the photo captions to the center*/
+figure{
+    text-align: center;
+}
+/*adjsuted the sizing and margins as well as provided the image for the image placeholders*/
+.image-placeholder {
+    width:250px;
+    height:250px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-image: url("https://via.placeholder.com/250");
+}

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JF Portfolio</title>
+     <!--Linking to boocamp css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Linking to external stylesheet Homework2-->
     <link rel="stylesheet" type="text/css" href = "./Homework2.css">
-   
-    <!--Linking to boocamp css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     
@@ -28,6 +27,61 @@
         </div>
       </nav>
       </nav>
+    <!--Setting the main area of the page in a container-->
+    <main class="container">
+      <!--set all the content into one row for the proper sizing and positioning--> 
+      <div class="row">
+      <!--set the id so that it would take on the formatting from css stylesheet homework2-->
+        <div id="portfolio-body" class="col-sm-12 col-md-10 col-lg-8">
+          <!--Setting the Portfolio header-->
+            <h1>Portfolio</h1>
+            <!--Using a line to seperate the header from the content-->
+            <hr>
+            <!--created seperate sections for each row of images.-->
+          <section class="row">
+            <div class="col-sm-6 col-xs-12 figure">
+              <div class="image-placeholder">
+                <figcaption>Word Games</figcaption>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 figure">
+              <!--The class image placeholder was necessary to be able to include the image in the css file. Repeated for each image-->
+              <div class="image-placeholder">
+                <figcaption>RPG Game</figcaption>
+              </div>
+            </div>
+          </section>
+
+          <section class="row">
+            <div class="col-sm-6 col-xs-12 figure">
+              <div class="image-placeholder">
+                <figcaption>Trivia Game</figcaption>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 figure">
+              <div class="image-placeholder">
+                <figcaption>Info Widget</figcaption>
+              </div>
+            </div>
+          </section>
+
+          <section class="row">
+            <div class="col-sm-6 col-xs-12 figure">
+              <div class="image-placeholder">
+                <figcaption>Rock Paper Scissors</figcaption>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+
+
+
+
+
+
 
 
 

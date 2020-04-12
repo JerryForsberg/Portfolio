@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jerry Forsberg</title>
-   
-    <!--Linking to external stylesheet Homework2-->
-    <link rel="stylesheet" type="text/css" href = "./Homework2.css">
-   
     <!--Linking to boocamp css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Used my link to my css sheet on the bottom -->
+    <link rel="stylesheet" type="text/css" href = "./Homework2.css">
 </head>
 <body>
     <!--Navbar class for dark theme-->
@@ -28,6 +26,44 @@
         </div>
       </nav>
       </nav>
+      <!--container to hold the content of the page-->
+      <main class="container">
+
+        <!-- Content here -->
+        <!-- setting the content to take up 2/3 width of the page size in sm or larger-->
+        <div id=aboutmebody class="col-sm-8">
+          <!--First row, about me. Using header instead of div-->
+          <header class="row">
+            <!--used the col-sm-6 to align the h1 to the left, in line with the rest of the content-->
+            <h1 class="col-sm-6">About Me</h1>
+          </header>
+          <!--creating a line to seperate the header from the main content-->
+          <hr>
+          <!--Used 2 seperate articles to seperate the 2 rows, one with the image, one with the bottom row of text-->
+          <article class="row">
+          <!--Used col-sm-4 so the image would take 1/3 of the defined area, and the text would take the other 2/3-->
+            <img class="col-sm-4" src="https://via.placeholder.com/150" alt="placeholder for bio pic">
+            <p class="col-sm-8">My name is Jerry Forsberg. I am an amateur software developer working out of Reno, NV. I have a BA in advertising as well as experience in many fields, including real estate valuation, construction, and customer service.</p>
+          </article>
+          <br>
+          <article class="row">
+          <!--Wanted the bottom row to take the entire width of the defined space-->
+            <p class="col-sm-12"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptatum aspernatur temporibus ipsam, optio repellat aut sed quo beatae quod! Accusantium temporibus expedita quis molestiae neque, nostrum reprehenderit libero commodi! </p>
+          </article>
+        </div>
+
+
+      </main>
+
+
+
+
+
+
+
+
+
+
 
 
 
